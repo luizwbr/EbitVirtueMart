@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension method="upgrade" version="1.5" type="plugin" group="system" >
+    <name>Plugin E-bit VirtueMart</name>
+    <version>1.0.0</version>
+    <creationDate>Abril 2016</creationDate>
+    <author>Luiz Weber</author>
+    <authorEmail>weber@weber.eti.br</authorEmail>
+    <authorUrl>http://weber.eti.br</authorUrl>
+    <copyright>Copyright © 2016 - Weber TI.</copyright>
+    <license>GNU General Public License v2.0</license>
+    <description><![CDATA[Plugin para mostrar o código do E-bit na finalização do pedido do VirtueMart]]></description>
+    <files>
+       <filename plugin="vmebit">vmebit.php</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="mode" type="list" default="0" label="Modo de utilização:" description="Modo de aparecimento do código. Por padrão nas duas telas, de checkout e de pedidos.">
+                    <option value="0">[Página Checkout e Página Pedidos]</option>
+                    <option value="1">[Página Checkout]</option>
+                    <option value="2">[Página Pedidos]</option>                    
+                </field>
+                <field name="code" type="editor"
+                    description="Código do E-bit em html"
+                    label="Código do E-bit"                        
+                    buttons="false"
+                    filter="raw"
+                />
+            </fieldset>
+        </fields>
+    </config>
+
+</extension>
