@@ -1,6 +1,9 @@
-Ebit-VirtueMart
+# Ebit-VirtueMart
+Plugin não-oficial para inserir código de acompanhamento E-bit nas telas de checkout e detalhes de pedido.
+* Virtuemart 3.x / Joomla 3.x
+* Virtuemart 2.6.x / Joomla 2.5.x
 
-Plugin para inserir código de acompanhamento E-bit - VirtueMart 2 / 3
+Para utilizá-lo é preciso ter uma conta ativada no site do E-bit (http://www.ebit.com.br/).
 
 Tutorial
 -------
